@@ -600,6 +600,9 @@ applications that come with the platform
 
     <privapp-permissions package="com.android.providers.tv">
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.tv">
